@@ -57,6 +57,7 @@
 #include <mach/msm_battery.h>
 #include <mach/rpc_server_handset.h>
 
+
 #include "devices.h"
 #include "timer.h"
 #include <mach/socinfo.h>
@@ -66,6 +67,9 @@
 #include <linux/msm_kgsl.h>
 #ifdef CONFIG_USB_ANDROID
 #include <linux/usb/android_composite.h>
+#endif
+#if defined(CONFIG_ACER_HEADSET_BUTT)
+#include <mach/acer_headset_butt.h>
 #endif
 
 #define TOUCHPAD_SUSPEND 	34
