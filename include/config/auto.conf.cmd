@@ -320,6 +320,7 @@ deps_config := \
 	drivers/pps/clients/Kconfig \
 	drivers/pps/Kconfig \
 	drivers/spi/Kconfig \
+	drivers/i2c/chips/Kconfig \
 	drivers/i2c/busses/Kconfig \
 	drivers/i2c/algos/Kconfig \
 	drivers/i2c/Kconfig \

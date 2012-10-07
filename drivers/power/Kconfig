@@ -184,4 +184,10 @@ config BATTERY_MSM_FAKE
 	help
 	  Say Y to bypass actual battery queries.
 
+config ACER_BATTERY
+	depends on POWER_SUPPLY
+	depends on I2C
+	default n
+	tristate "TI gas gauge"
+
 endif # POWER_SUPPLY

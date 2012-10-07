@@ -111,10 +111,7 @@ struct msm_panel_info {
 	__u32 clk_min;
 	__u32 clk_max;
 	__u32 frame_count;
-/*#if defined(CONFIG_MACH_ACER_A1)
-	__u32 width;	// width of picture in mm
-	__u32 height;	// height of picture in mm
-#endif*/
+
 	union {
 		struct mddi_panel_info mddi;
 	};
